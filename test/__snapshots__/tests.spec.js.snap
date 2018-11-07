@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blank_lines snapshot-test 1`] = `
+"<h1>Markdown</h1>
+<p><br><br><br><br></p>
+<p><br><br><br><br><br><br><br></p>
+<p>Some text with blank_line token (~) ~in the middle~</p>
+<p><br><br><br>Text in the middle of blank lines
+<br></p>
+<p>Last paragraph
+<br></p>
+<pre><code class=\\"language-javascript\\">~
+~
+~
+~
+</code></pre>
+<blockquote>
+<p>Blockquoted text</p>
+<p><br><br><br></p>
+<p>Blank lines within blockquote</p>
+<p><br></p>
+</blockquote>
+"
+`;
