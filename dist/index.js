@@ -31,7 +31,7 @@ var blankLinePlugin = function blankLinePlugin(md, options) {
       return false;
     }
 
-    var token = state.push('blank_line_openclose', 'br', 0);
+    var token = state.push('blank_line', 'br', 0);
     state.pos += nextIsNewLine ? 2 : 1;
     return true;
   };

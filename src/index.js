@@ -13,7 +13,7 @@ const blankLinePlugin = (md, options) => {
 	  if (!nextIsNewLine && !isLastChar) { return false }
 	  if (silent) { return false }
 
-		const token = state.push('blank_line_openclose', 'br', 0)
+		const token = state.push('blank_line', 'br', 0)
 
 	  state.pos += nextIsNewLine ? 2 : 1
 	  return true
